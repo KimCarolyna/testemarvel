@@ -8,9 +8,12 @@
 <body>
 
 <div id="inicio">
-  <h1>Descubra seu herói da Marvel</h1>
-  <p>Responda o quiz e veja qual personagem você seria!</p>
-  <button onclick="iniciarQuiz()">Começar</button>
+  <h1>Qual herói da Marvel combina com sua personalidade?</h1>
+  <p>
+    No universo Marvel, cada herói possui qualidades únicas.
+    Responda às perguntas e descubra qual personagem mais combina com você.
+  </p>
+  <button onclick="iniciarQuiz()">Começar Quiz</button>
 </div>
 
 <div id="quiz" style="display:none;">
@@ -20,9 +23,10 @@
 
 <div id="resultado" style="display:none;">
   <h2 id="personagemNome"></h2>
+  <p id="pontuacao"></p>
   <p id="descricao"></p>
-  <img id="imagem" width="200">
-  <button onclick="reiniciar()">Refazer</button>
+  <img id="imagem" width="220">
+  <button onclick="reiniciar()">Refazer Quiz</button>
 </div>
 
 <div id="barra-container">
