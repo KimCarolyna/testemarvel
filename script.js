@@ -113,6 +113,7 @@ let perguntaAtual = 0;
 function iniciarQuiz() {
   document.getElementById("inicio").style.display = "none";
   document.getElementById("quiz").style.display = "block";
+  document.getElementById("barra-container").style.display = "block";
   mostrarPergunta();
 }
 
