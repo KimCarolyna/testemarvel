@@ -1,4 +1,4 @@
-# Quiz Marvel 🦸‍♂️
+# Quiz Marvel 
 
 ## Descrição
 
@@ -32,7 +32,7 @@ Este é um quiz interativo que determina qual herói da Marvel combina com sua p
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript
 
 ## Funcionalidades
 
